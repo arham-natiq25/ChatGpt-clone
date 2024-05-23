@@ -2,6 +2,7 @@
     import ChatLayout from './../../Layouts/ChatLayout.vue'
     import Skeleton from './../../Components/Skeleton.vue'
     import { useForm,Link } from '@inertiajs/vue3';
+    import {Head} from '@inertiajs/vue3';
     import ChatContent from "./../../Components/ChatContent.vue";
     import { onMounted, ref } from 'vue';
     const form=useForm({
@@ -38,7 +39,6 @@
 </script>
 <template>
     <ChatLayout>
-
         <template #aside>
             <ul class="p-2">
                 <li
